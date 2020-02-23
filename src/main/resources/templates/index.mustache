@@ -1,0 +1,25 @@
+{{>layout/header}}
+
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-6">
+            <a href="/post/save" role="button" class="btn btn-primary">글 등록</a>
+        </div>
+    </div>
+
+    <br>
+    <table class="table table-horizontal table-bordered" id="tbl-posts">
+        <thead class="thead-strong">
+        <tr>
+            <th>게시글번호</th>
+            <th>제목</th>
+            <th>작성자</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+</div>
+
+{{>layout/footer}}
+<script src="/js/app/index.js"></script>
